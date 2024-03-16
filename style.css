@@ -91,10 +91,13 @@
 }
 
 .address {
+    width: 100%;
     margin-top: 25px;
     display: flex;
-    gap: 400px;
+    /* gap: 400px; */
     align-items: center;
+    justify-content: space-between;
+
 }
 
 .address ul {
