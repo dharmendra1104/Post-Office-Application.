@@ -11,49 +11,43 @@
 <body>
     <section class="section-2">
         <div class="upper">
-            <h4>IP Address:</h4>
+            <h4>IP Address: <span class="ip"></span></h4>
             <div class="address">
                 <ul>
-                    <li>Lat : <span></span></li>
-                    <li>Long : <span></span></li>
+                    <li>Lat : <span class="lat"></span></li>
+                    <li>Long : <span class="long"></span></li>
                 </ul>
                 <ul>
-                    <li>City : <span></span></li>
-                    <li>Region : <span></span></li>
+                    <li>City : <span class="city"></span></li>
+                    <li>Region : <span class="region"></span></li>
                 </ul>
                 <ul>
-                    <li>Organisation : <span></span></li>
-                    <li>Hostname : <span></span></li>
+                    <li>Organisation : <span class="organis"></span></li>
+                    <li>Hostname : <span class="hostname"></span></li>
                 </ul>
             </div>
         </div>
         <div class="map-box">
             <h2>Your Current Location</h2>
-            <div class="map"></div>
+            <div class="map">
+                <iframe src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed" width="100%"
+                    height="300" frameborder="0" style="border:0"></iframe>
+            </div>
         </div>
         <div class="about">
             <h2>More Information About You</h2>
             <ul>
-                <li>Time:</li>
-                <li>Date And Time:</li>
-                <li>Pincode:</li>
-                <li>Massage:</li>
+                <li>Time : <span class="time"></span></li>
+                <li>Date And Time : <span class="datetime"></span></li>
+                <li>Pincode : <span class="pincode"></span></li>
+                <li>Massage : <span class="massage"></span></li>
             </ul>
         </div>
         <div class="section-3">
             <h2>Post Offices Near You</h2>
-            <input type="text" placeholder="&#x1F50E;&#xFE0E; Search By name">
+            <input type="text" placeholder="&#x1F50E;&#xFE0E; Search By name" class="search">
             <div class="information">
-                <div class="item">
-                    <p>Name :<span></span></p>
-                    <p>Branch Type :<span></span></p>
-                    <p>Delivery Status :<span></span></p>
-                    <p>District :<span></span></p>
-                    <p>Division :<span></span></p>
-                </div>
-                <div class="item">2</div>
-                <div class="item">3</div>
-                <div class="item">4</div>
+
             </div>
         </div>
     </section>
