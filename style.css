@@ -36,20 +36,6 @@
     margin-left: 70px;
 }
 
-@media only screen and (max-width: 880px) {
-    .img {
-        width: 100%;
-        height: 100%;
-        padding-bottom: 90%;
-    }
-
-    .img img {
-        height: 100%;
-        width: 100%;
-        margin: 0;
-    }
-}
-
 .content h3 {
     font-size: 30px;
     margin-top: 20px;
@@ -57,9 +43,9 @@
 }
 
 .content p {
-    font-size: px;
+    font-size: 14px;
     margin-top: 10px;
-    width: 90%;
+    width: 80%;
 }
 
 .content-2 {
@@ -120,6 +106,7 @@
     flex-direction: column;
     gap: 15px;
 }
+
 
 .map-box {
     color: white;
@@ -191,7 +178,60 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    padding: 7px;
+    padding:20px;
     border-radius: 5px;
     background-color: #575A85;
+}
+
+#jumpButton{
+    position: fixed;
+    bottom: 20px;
+    right: 35px;
+    background-color: brown;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.backbtn a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media only screen and (max-width: 880px) {
+
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .img {
+        width: 100%;
+        height: 100%;
+        padding: 5%;
+    }
+    .img img {
+        height: 75%;
+        width: 100%;
+        margin: 0;
+    }
+    .content-1 {
+        height: 60%;
+    }
+
+    .address{
+        align-items: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 12px;
+    }
+    .address ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .information {
+        grid-template-columns: 1fr 1fr;
+    }
 }
